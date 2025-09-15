@@ -1,0 +1,15 @@
+[package]
+name = "roulettecipher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "0.10"          # AES-256 GCM
+argon2 = "0.4"            # Argon2id password hashing
+rand = "0.8"              # random key/nonce generation
+rpassword = "7.0"         # password input
+zeroize = "1.5"           # zero memory after use
+anyhow = "1.0"            # error handling
+base64ct = "1.8.0"        # base64 encoding/decoding
+clap = { version = "4.3", features = ["derive"] }  # CLI parsing
+
