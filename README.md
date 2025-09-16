@@ -19,3 +19,14 @@ Safe Base64 Metadata: All encryption metadata is safely encoded and stored with 
 Installation
 
 Clone the repository
+
+```
+git clone https://github.com/j3r1ch0123/RouletteCipher.git
+cd RouletteCipher
+```
+
+Build the program
+
+```
+cargo build
+```
